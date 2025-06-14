@@ -1,0 +1,43 @@
+	*******************************************************
+	*                                                     *
+	*          Welcome to atalanta (version 2.0)          *
+	*                                                     *
+	*               Dong S. Ha (ha@vt.edu)                *
+	*            Web: http://www.ee.vt.edu/ha             *
+	*  Virginia Polytechnic Institute & State University  *
+	*                                                     *
+	*******************************************************
+
+******   SUMMARY OF TEST PATTERN GENERATION RESULTS   ******
+1. Circuit structure
+   Name of the circuit                       : c5315
+   Number of primary inputs                  : 178
+   Number of primary outputs                 : 123
+   Number of gates                           : 2307
+   Level of the circuit                      : 49
+
+2. ATPG parameters
+   Test pattern generation Mode              : RPT + DTPG + TC
+   Limit of random patterns (packets)        : 16
+   Backtrack limit                           : 10
+   Initial random number generator seed      : 1749930238
+   Test pattern compaction Mode              : REVERSE + SHUFFLE 
+   Limit of shuffling compaction             : 2
+   Number of shuffles                        : 9
+
+3. Test pattern generation results
+   Number of test patterns before compaction : 780
+   Number of test patterns after compaction  : 599
+   Fault coverage                            : 98.879 %
+   Number of collapsed faults                : 5350
+   Number of identified redundant faults     : 59
+   Number of aborted faults                  : 1
+   Total number of backtrackings             : 87
+
+4. Memory used                               : 0.000 MB
+
+5. CPU time
+   Initialization                            : 0.000 Secs
+   Fault simulation                          : 0.083 Secs
+   FAN                                       : 0.133 Secs
+   Total                                     : 0.217 Secs
